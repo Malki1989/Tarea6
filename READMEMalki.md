@@ -100,3 +100,27 @@ $git vsc css/content.css
 $git add css/content.css
 
 $git commit -m "Quitar margenes content.css"
+[main 84ea7f8] Quitar margenes content.css
+ 2 files changed, 109 insertions(+), 3 deletions(-)
+```
+
+### Subida de archivos a producción ###
+
+Una vez realizados todos nuestros cambios, realizamos un **git push** para que los suba a nuestra rama.
+
+```
+$ git push 
+
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (18/18), 3.01 KiB | 513.00 KiB/s, done.
+Total 18 (delta 5), reused 0 (delta 0), pack-reused 0       
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/u24061/Tarea6.git
+   3afd015..84ea7f8  main -> main
+```
+
+Una vez subidos los cambios, creamos un *pull request* hacia el proyecto original i lo validamos.
+
