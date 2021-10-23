@@ -151,3 +151,25 @@ git commit -m "Añadir color de fuente y padding abajo de los elementos li"
 ```
 
 Por ultimo, creamos el archivo READMEToniGomila.md donde estoy guardando todas estas instrucciones de mi trabajo
+
+-- A partir de este punto, las instrucciones se han añadido mediante via web para poder documentar todo el trabajo --
+
+Realizamos el commit del archivo READMEToniGomila.md y al tener ya los 5 commits, realizamos el **push**.
+
+```
+git commit -m "Añadir archivo READMEToniGomila.md"
+[main 1f2e59d] Añadir archivo READMEToniGomila.md
+ 1 file changed, 153 insertions(+)
+ create mode 100644 READMEToniGomila.md
+
+git push
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (17/17), 3.45 KiB | 1.73 MiB/s, done.
+Total 17 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 1 local object.
+To https://github.com/agomilag/Tarea6.git
+   91dbdee..1f2e59d  main -> main
+```
