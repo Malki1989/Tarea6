@@ -1,0 +1,6 @@
+/*Escribo sentencia para añadir borde al menú entero.*/
+
+nav.menu
+{
+    border: black solid 1px;
+}
