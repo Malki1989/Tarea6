@@ -1,6 +1,14 @@
 /*Escribo sentencia para añadir borde al menú entero.*/
 
+/*Añado color de fuente y un padding abajo de los elementos li*/
+
 nav.menu
 {
     border: black solid 1px;
+    color: darkblue;
+}
+
+.menu ul li
+{
+    padding-bottom: 5px;
 }
